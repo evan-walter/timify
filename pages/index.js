@@ -11,11 +11,13 @@ export default function Home() {
         <link rel='icon' href='/favicon.ico' />
       </Head>
 
-      <main>
+      <main className='container'>
         <App />
       </main>
 
-      <footer>Footer</footer>
+      <footer className='w-full h-40 bg-zinc-800 flex justify-center items-center'>
+        <p className='text-xl'>©Timify</p>
+      </footer>
     </>
   )
 }

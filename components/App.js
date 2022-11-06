@@ -3,6 +3,7 @@ import {
   GoogleMapProvider,
   usePlacesService,
 } from '@ubilabs/google-maps-react-hooks'
+import Location from './Location'
 
 const mapOptions = {
   zoom: 12,
@@ -22,8 +23,12 @@ export default function App() {
       options={mapOptions}
       mapContainer={mapContainer}
     >
-      {/* <div ref={(node) => setMapContainer(node)} style={{ height: '100vh' }} /> */}
-      <button onClick={() => console.log(placesService)}>Log</button>
+      <Location />
+
+      <div
+        ref={(node) => setMapContainer(node)}
+        className='w-full h-96'
+      />
     </GoogleMapProvider>
   )
 }
