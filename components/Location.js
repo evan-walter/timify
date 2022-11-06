@@ -6,7 +6,9 @@ export default function Location() {
   return (
     <div>
       <input
+        type='text'
         className='px-2 py-1'
+        placeholder='Search'
         value={searchParams}
         onChange={(e) => setSearchParams(e.target.value)}
       />
