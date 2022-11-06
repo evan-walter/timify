@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@googlemaps/react-wrapper": "^1.1.35",
     "@react-google-maps/api": "^2.14.0",
     "@types/node": "18.11.9",
     "@types/react": "18.0.25",
@@ -16,7 +17,7 @@
     "eslint": "8.26.0",
     "eslint-config-next": "13.0.2",
     "next": "13.0.2",
-    "react": "18.2.0",
+    "react": "^18.2.0",
     "react-dom": "18.2.0",
     "typescript": "4.8.4"
   },
